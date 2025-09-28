@@ -2,12 +2,12 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #555555;  
-  color: #333;
+  background: #777777;  
+  color: #000000;
 }
 
 header {
-  background: linear-gradient(to bottom, #000000, #555555); /* header color, bg color */
+  background: linear-gradient(to bottom, #000000, #777777); /* header color, bg color */
   color: white; 
   padding: 40px 20px;
   text-align: center;
