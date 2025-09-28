@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Scanned Object Project</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <script
+      type="module"
+      src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <h1>Tech Museum Object</h1>
+      <p>Explore the model below — you can rotate, zoom, and interact!</p>
+    </header>
+
+    <main>
+      <p>Lorem ipsum dolor sit amet...</p>
+      <model-viewer
+        src="test-block.glb"
+        alt="3D scanned object"
+        auto-rotate
+        camera-controls
+        shadow-intensity="1"
+        style="width: 100%; height: 500px"
+      >
+      </model-viewer>
+    </main>
+
+    <footer>
+      <p>Lorem ipsum whatever</p>
+    </footer>
+  </body>
+</html>
