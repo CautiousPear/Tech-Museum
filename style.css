@@ -25,3 +25,15 @@ footer {
   margin-top: 20px;
   text-align: left;
 }
+
+.object {
+  width: 150px;      /* size of the preview image */
+  height: auto;
+  border-radius: 10px;
+  width: 250px;
+  height: auto
+}
+
+.object:hover {
+  transform: translateY(-10px);
+}
