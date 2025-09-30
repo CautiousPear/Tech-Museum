@@ -69,9 +69,11 @@ footer {
 @media (max-width: 600px) {
   .shelf {
     gap: 10px;
-    padding-bottom: 30px;
+    height: 50px;
+    
   }
   .object {
-    width: 100px;
+    width: 150px;
+    bottom: 50px;
   }
 }
