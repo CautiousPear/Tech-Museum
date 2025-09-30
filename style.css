@@ -26,14 +26,52 @@ footer {
   text-align: left;
 }
 
+.shelf {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 80px auto 20px;
+  height: 80px;
+  background: #8B5E3C;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  flex-wrap: wrap;
+  position: relative;
+}
+
+
+/* Bottom edge of shelf */
+.shelf::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  background: #5C3A21;
+  border-radius: 5px;
+}
+
 .object {
-  width: 150px;      /* size of the preview image */
+  width: 250px; /* default size */
   height: auto;
   border-radius: 10px;
-  width: 250px;
-  height: auto
+  position: relative;
+  bottom: 70px; /* png pos in relation to bottom of shelf */
 }
 
 .object:hover {
   transform: translateY(-10px);
+}
+
+/* Adjustments for mobile */
+@media (max-width: 600px) {
+  .shelf {
+    gap: 10px;
+    padding-bottom: 30px;
+  }
+  .object {
+    width: 100px;
+  }
 }
