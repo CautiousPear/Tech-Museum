@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech Museum</title>
+    <link rel="stylesheet" href="../style.css" />
+
+    <script
+      type="module"
+      src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <h1>Sony FD-100 Mavica (2002)</h1>
+      <p>Explore the model below — you can rotate, zoom, and interact!</p>
+      <a href="../index.html">⌂ Return home </a>
+    </header>
+
+    <main>
+      <p>
+        A digital camera made by SONY. It was released in 2002. and used 3&1/2
+        inch floppy disks for storing photos, as well as memory sticks.
+      </p>
+      <p>
+        You could take video, in addition to pictures, of up to 5 seconds. It
+        may seem incredibly short, but for its time, 5 seconds of video without
+        a camcorder was nearly a miracle.
+      </p>
+      <model-viewer
+        src="../models/sony_mavica_fd100.glb"
+        alt="Sony FD-100 Mavica"
+        auto-rotate
+        camera-controls
+        shadow-intensity="1"
+        style="width: 100%; height: 600px"
+      >
+      </model-viewer>
+    </main>
+
+    <footer>
+      <p>
+        Image credits:
+        <a
+          href="https://obsoletesony.substack.com/p/when-cameras-ran-on-floppy-disks"
+          target="_blank"
+          >Obsolete Sony</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>

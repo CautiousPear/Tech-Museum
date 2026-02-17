@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech Museum</title>
+    <link rel="stylesheet" href="../style.css" />
+
+    <script
+      type="module"
+      src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <h1>Bausch & Lomb Balopticon (1901)</h1>
+      <p>Explore the model below — you can rotate, zoom, and interact!</p>
+      <a href="../index.html">⌂ Return home </a>
+    </header>
+
+    <main>
+      <p>
+        The Balopticon was like an early 1900s version of what the PowerPoint
+        application does today. It was named after the Bausch and Lomb Optical
+        Company, though many knew it by another name: the Magic Lantern.
+      </p>
+      <p>
+        They were widely used in schools to project film images across the
+        country, by photographers or families looking to share their film
+        images, and even some traveling salesmen.
+      </p>
+      <p>
+        The "handles" on the sides are actually part of the film tray, which
+        slides out on either side, to make switching pictures easy.
+      </p>
+      <model-viewer
+        src="../models/balopticon.glb"
+        alt="Baush & Lomb Balopticon"
+        auto-rotate
+        camera-controls
+        shadow-intensity="1"
+        style="width: 100%; height: 600px"
+      >
+      </model-viewer>
+    </main>
+
+    <footer>
+      <p>
+        Not currently on display. Image credits:
+        <a
+          href="https://www.gibsonsauctions.com.au/auction-lot/a-vintage-bausch-and-lomb-balopticon-slide-proj_F654B298F6"
+          target="_blank"
+          >Gibson's Auctions</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
