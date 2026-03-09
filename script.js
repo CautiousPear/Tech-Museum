@@ -8,7 +8,11 @@ const museumObjects = [ //List of objects with their links, images, and alt text
     { link: "pages/dead_reckoning_computer.html", img: "images/dead_reckoning_computer.png", alt: "Dead-reckoning Computer" },
     { link: "pages/sony_mavica_fd100.html", img: "images/sony_mavica_fd100.png", alt: "Sony Mavica FD100" },
     { link: "pages/sony_mavica_fd97.html", img: "images/sony_mavica_fd97.png", alt: "Sony Mavica FD97" },
-    { link: "pages/ibm_calculator_tool.html", img: "images/ibm_machine_load_computer_slide_rule.png", alt: "IBM Calculator Tool" }
+    { link: "pages/ibm_calculator_tool.html", img: "images/ibm_machine_load_computer_slide_rule.png", alt: "IBM Calculator Tool" },
+    { link: "pages/ibm_port_a_punch.html", img: "images/ibm_port_a_punch.png", alt: "IBM Port-a-Punch" },
+    { link: "pages/watson_film_loader.html", img: "images/watson_film_loader.png", alt: "Watson Film Loader" },
+    { link: "pages/sony_mavica_fd73.html", img: "images/sony_mavica_fd73.png", alt: "Sony Mavica FD-73" },
+    { link: "pages/sony_mavica_fd7.html", img: "images/sony_mavica_fd7.png", alt: "Sony Mavica FD-7" }
   ];
 
 const ITEMS_PER_SHELF = window.innerWidth < 600 ? 3 : 6; 
