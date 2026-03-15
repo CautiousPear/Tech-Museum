@@ -13,6 +13,10 @@ const museumObjects = [ //List of objects with their links, images, and alt text
     { link: "pages/sony_mavica_fd73.html", img: "images/sony_mavica_fd73.png", alt: "Sony Mavica FD-73" },
     { link: "pages/sony_mavica_fd7.html", img: "images/sony_mavica_fd7.png", alt: "Sony Mavica FD-7" },
     { link: "pages/cassette_recorder_player.html", img: "images/cassette_recorder_player.png", alt: "General Electric Tape Recorder & Player" },
+    { link: "pages/starflex_film_camera.html", img: "images/kodak_starflex.png", alt: "Kodak Starflex Film Camera" },
+    { link: "pages/iomega_zip_drives.html", img: "images/zip_drives.png", alt: "Iomega Zip Drive" },
+    { link: "pages/intel_pentium_II_cpu.html", img: "images/intel_pentium_II_cpu.png", alt: "Intel Pentium II CPU" },
+    { link: "pages/intel_core_2_duo_cpu.html", img: "images/intel_core_2_duo_cpu.png", alt: "Intel Core 2 Duo CPU" }
   ];
 
   const mainFloor = document.getElementById('museum-floor');
