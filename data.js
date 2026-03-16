@@ -1,23 +1,5 @@
 export const museumObjects = [
 
-    /*{ link: "pages/underwood_typewriter.html", img: "images/underwood_typewriter.png", alt: "Underwood Typewriter" },
-    { link: "pages/ibm_disk_drives.html", img: "images/ibm_disk_drives.png", alt: "IBM Disk Drives" },
-    { link: "pages/balopticon.html", img: "images/balopticon.png", alt: "Balopticon" },
-    { link: "pages/mechanical_adding_machine.html", img: "images/mechanical_adding_machine.png", alt: "Mechanical Adding Machine" },
-    { link: "pages/dead_reckoning_computer.html", img: "images/dead_reckoning_computer.png", alt: "Dead-reckoning Computer" },
-    { link: "pages/sony_mavica_fd100.html", img: "images/sony_mavica_fd100.png", alt: "Sony Mavica FD100" },
-    { link: "pages/sony_mavica_fd97.html", img: "images/sony_mavica_fd97.png", alt: "Sony Mavica FD97" },
-    { link: "pages/ibm_calculator_tool.html", img: "images/ibm_machine_load_computer_slide_rule.png", alt: "IBM Calculator Tool" },
-    { link: "pages/ibm_port_a_punch.html", img: "images/ibm_port_a_punch.png", alt: "IBM Port-a-Punch" },
-    { link: "pages/watson_film_loader.html", img: "images/watson_film_loader.png", alt: "Watson Film Loader" },
-    { link: "pages/sony_mavica_fd73.html", img: "images/sony_mavica_fd73.png", alt: "Sony Mavica FD-73" },
-    { link: "pages/sony_mavica_fd7.html", img: "images/sony_mavica_fd7.png", alt: "Sony Mavica FD-7" },
-    { link: "pages/cassette_recorder_player.html", img: "images/cassette_recorder_player.png", alt: "General Electric Tape Recorder & Player" },
-    { link: "pages/starflex_film_camera.html", img: "images/kodak_starflex.png", alt: "Kodak Starflex Film Camera" },
-    { link: "pages/iomega_zip_drives.html", img: "images/zip_drives.png", alt: "Iomega Zip Drive" },
-    { link: "pages/intel_pentium_II_cpu.html", img: "images/intel_pentium_II_cpu.png", alt: "Intel Pentium II CPU" },
-    { link: "pages/intel_core_2_duo_cpu.html", img: "images/intel_core_2_duo_cpu.png", alt: "Intel Core 2 Duo CPU" },
-    { link: "pages/sony_memory_floppy_adapter.html", img: "images/sony_memory_floppy_adapter.png", alt: "Sony Memory Stick Floppy Adapter" },*/
     { id: "underwood_typewriter", 
       title: "Underwood Typewriter (1901-1907)", 
       model: "models/underwood_typewriter.glb", 
@@ -44,7 +26,7 @@ export const museumObjects = [
 
     { id: "balopticon", 
       title: "Bausch & Lomb Balopticon (1901)", 
-      model: "models/balopticon.glb", // Model missing
+      model: "models/balopticon.glb", // No model available, not sure if it's in the physical library either.
       description: `The Balopticon was like an early 1900s version of what the PowerPoint application does today. It was named after the Bausch and Lomb Optical Company, though many knew it by another name: the Magic Lantern.
       
       They were widely used in schools to project film images across the country, by photographers or families looking to share their film images, and even some traveling salesmen.
@@ -177,7 +159,7 @@ export const museumObjects = [
       
       This device has no display, so you had to guess where you thought you were on the tape while rewinding or fast forwarding.
       
-      They held 30 to 45 minutes of audio per side, and being double sided doubled the amount of music it could hold.`,
+      They held 30 to 45 minutes of audio per side, and being double-sided doubled the amount of music it could hold.`,
       img: "images/cassette_recorder_player.png", 
       alt: "General Electric Tape Recorder & Player 3-5027", 
       imageCredit: "eBay Listing",
@@ -258,5 +240,265 @@ export const museumObjects = [
       alt: "PNY Smart Media Card", 
       imageCredit: "MemoryC",
       imageLink: "https://www.memoryc.com/3328-128mb-pny-smartmedia-memory-card.html"
+    },
+
+    { id: "dial_up_card", 
+      title: "Dial-up Internet Card (1990s)", 
+      model: "models/dial_up_card.glb",
+      description: `These cards enabled you to plug your computer into your telephone line to get internet service.
+      These may have been slow (and kicked whoever was using the phone off their call), but for many ot was their only way to access the internet.`,
+      img: "images/dial_up_card.png", 
+      alt: "Dial-up Internet Card", 
+      imageCredit: "eBay seller",
+      imageLink: "https://www.ebay.com/itm/235319849471"
+    }, 
+
+    { id: "rand_mcnally_streetfinder", 
+      title: "Rand McNally StreetFinder Deluxe GPS System (1998)", 
+      model: "models/rand_mcnally_streetfinder.glb",
+      description: `This could be used with a laptop computer to provide in-car GPS navigation, despite not having a solid internet connection.
+      
+      While nowadays anyone with a smartphone can have the features this brought to the table and most modern cars com equipped with GPS, back then it was quite the luxury to have it pre-integrated into your car.
+    
+      It allowed the us user to get directions to a particular street address on the fly.`,
+      img: "images/rand_mcnally_streetfinder.png", 
+      alt: "Rand McNally StreetFinder Deluxe GPS System", 
+      imageCredit: "eBay seller",
+      imageLink: "https://www.ebay.com/itm/174772152369"
+    }, 
+
+    { id: "magnetic_tape_reel", 
+      title: "Magnetic Tape Reels (1950s)", 
+      model: "models/magnetic_tape_reel.glb", // Model missing, but have a very low-quality version possible
+      description: `These reels were used in early computer mainframes from the 1950s to the 60s and beyond. The one in the center of the picture was one of the first tape reels, made by Univac in 1951. These tape reels could store anywhere from 5 megabytes to 140 megabytes, using a reel of 2400 feet of tape. For its time it was a massive amount of space, and allowed the easy storage and mixing of audio for the first time!
+      
+      You may have seen the mainframes with tape reel readers in movies and tv shows around the 1990s, they usually symbolized a computer "computing".`,
+      img: "images/magnetic_tape_reel.png", 
+      alt: "Magnetic Tape Reels", 
+      imageCredit: "Daniel P. B. Smith",
+      imageLink: "https://en.wikipedia.org/wiki/Magnetic_tape#/media/File:Magtape1.jpg"
+    }, 
+
+    /*{ id: "floppy_disks", // Multiple models, but not sure how to display them. Will add later.
+    }, */ 
+
+    { id: "early_board", 
+      title: "Early Computer Board (???)", 
+      model: "models/early_computer_board.glb",
+      description: `Pictured is a board from an early computer. The wires worked like etchings on a modern circuit.
+      
+      We do not know much about this board, please contact us if you have any information!`,
+      img: "images/early_computer_board.png", 
+      alt: "Early Computer Board", 
+      rotation: "180deg 0deg 0deg", 
+    }, 
+
+    { id: "ibm_system_board", 
+      title: "IBM Card Equipment Programming Plugboard (???)", 
+      model: "models/ibm_system_board.glb", 
+      description: `A board from an IBM card punch calculator from the WWII era.
+
+      Additional data to be researched and added later, please contact us if you have any information!`,
+      img: "images/ibm_system_board.png", 
+      alt: "IBM System Board", 
+      imageCredit: "Glenn's Computer Museum",
+      imageLink: "https://www.glennsmuseum.com/items/ibm_card/"
+    }, 
+
+    { id: "small_early_ram", 
+      title: "Early RAM (1960s)", 
+      model: "models/small_early_ram.glb", 
+      description: `Early RAM, or Random Access Memory module.
+
+      The module is hand-woven, and on the sides are pins soldered into loops, with connected or disconnected pins meaning 0 or 1 in binary.`,
+      img: "images/small_early_ram.png", 
+      alt: "Early RAM", 
+      rotation: "180deg 90deg 0deg",
+    }, 
+
+    { id: "early_ram", 
+      title: "Early RAM (1960s)", 
+      model: "models/early_ram.glb", 
+      description: `Early RAM, or Random Access Memory module.
+
+      The module is hand-woven, and on the sides are pins soldered into loops, with connected or disconnected pins meaning 0 or 1 in binary.`,
+      img: "images/early_ram.png", 
+      alt: "Early RAM", 
+      rotation: "180deg 180deg 0deg"
+    }, 
+
+    { id: "palm_3", 
+      title: "Palm 3 Personal Digital Assistant (1998)", 
+      model: "models/palm_3.glb", 
+      description: `The device pictured below is the Palm III, a Personal Digital Assistant. It allowed you to connect to and browse the internet, check your emails and contacts, and make and view a schedule using the calendar.
+
+      Instead of a touchscreen where you could use your finger to navigate, you would use a stylus to control the Palm III.`,
+      img: "images/palm_3.png", 
+      alt: "Palm 3", 
+      rotation: "180deg 0deg 0deg",
+      imageCredit: "Computing History",
+      imageLink: "https://www.computinghistory.org.uk/det/17962/3Com-Palm-III/"
+    }, 
+
+    { id: "palm_3c", 
+      title: "Palm 3c Personal Digital Assistant (2000)", 
+      model: "models/palm_3c.glb",  // Model missing, but have a very low-quality version possible
+      description: `On the left is the Palm IIIc, where the "c" stands for color. Its screen could display 8-bit color.
+
+      The PalmPilot line of PDAs had a popularity ex- plosion in the late 90s to early 2000s. They were essentially the device that filled the role of the smartphone, before the smartphone.
+      
+      Each one had the ability to upgrade the OS, ROM, and RAM, by swapping a memory cartridge out for a new one.
+      
+      This meant you could keep using your old Palm device, and give it more processing power as newer systems came out!`,
+      img: "images/palm_3c.png", 
+      alt: "Palm 3c", 
+      rotation: "180deg 0deg 0deg",
+      imageCredit: "ifixit",
+      imageLink: "https://www.ifixit.com/Wiki/Palm_IIIc_Troubleshooting"
+    }, 
+
+    { id: "jaz_disks", 
+      title: "iomega Jaz disks (1995)", 
+      model: "models/jaz_disks.glb", 
+      description: `These disks were the successor to the Zip disks mentioned earlier in the book. They weren't as successful as Zip and they had their own hardware problems as well. At the time CDs were taking off in popularity, causing reduced sales in Jaz.
+
+      Earlier Jaz drives could overheat, and loading-mechanism jams could leave a disk stuck in the drive. Forcibly ejecting the stuck disk could destroy both the drive and disk`,
+      img: "images/jaz_disks.png", 
+      alt: "Jaz Disks", 
+      imageCredit: "Disk-O-Tape Inc.",
+      imageLink: "https://disk-o-tape.com/Jaz-Zip-Disks/Iomega-Jaz-2GB-MAC-10600"
+    },
+
+    { id: "motorola_v710", 
+      title: "Motorola V710 Flip Phone (1995)", 
+      model: "models/motorola_v710.glb", 
+      description: `The Motorola V710 was the first flip phone Verizon sold that came with Bluetooth connectivity. Unfortunately it was limited to only connecting a headset to take calls on, and not transferring files.
+      
+      It was also the first flip phone to have a megapixel camera, although the pictures' quality when taken by the phone are rather grainy don't look great, compared against modern phones.
+      
+      The clamshell design of this phone was quite popular around the mid to late 2000s. It was copied about as many times as Apple's notch was in the modern day.`,
+      img: "images/motorola_v710.png", 
+      alt: "Motorola V710", 
+      imageCredit: "ifixit",
+      imageLink: "https://www.ifixit.com/Device/Motorola_V710"
+    },
+
+    { id: "gold_microprocessor", 
+      title: "Gold Microprocessor (c. 1970s)", 
+      model: "models/gold_microprocessor.glb", 
+      description: `A gold microprocessor, used in early computers.
+      
+      We do not know much about this microprocessor, please contact us if you have any information!`,
+      img: "images/gold_microprocessor.png", 
+      alt: "Gold Microprocessor", 
+      imageCredit: "Richardson RFPD",
+      imageLink: "https://shop.richardsonrfpd.com/docs/rfpd/UMS_GaN_products.pdf"
+    },
+
+    { id: "cathode_ray_tube_display", 
+      title: "Cathode Ray Tube Display (???)", 
+      model: "models/cathode_ray_tube_display.glb", // Model missing, but have a very low-quality version possible
+      description: `Cathode ray tube displays (CRTs) utilized the vacuum tube on the back would work with an electron gun to project an image onto the phosphorescent screen. 
+      
+      More info to be added later.`,
+      img: "images/cathode_ray_tube_display.png", 
+      alt: "Cathode Ray Tube Display", 
+      imageCredit: "Global Electronic Services",
+      imageLink: "https://gesrepair.com/retrofit-crt-cathode-ray-tube-displays/"
+    },
+
+    { id: "hard_disk_drive", 
+      title: "Hard Disk Drive (???)", 
+      model: "models/hard_disk_drive.glb",
+      description: `Hard disk drives, or HDDs, became popular to computer users in the 1980s, and they have since become a normal part of nearly every computer.
+      
+     They came in sizes of 3 & 1/2 inches and 2 & 1/2 inches (model below). They were for desktop and laptop computers respectively.`,
+      img: "images/hard_disk_drive.png", 
+      alt: "Hard Disk Drive", 
+      imageCredit: "Wikipedia",
+      imageLink: "https://en.wikipedia.org/wiki/Hard_disk_drive"
+    },
+
+    { id: "sony_dscp71_cybershot", 
+      title: "Sony DSC-P71 Cyber-Shot (2002)", 
+      model: "models/sony_dscp71_cybershot.glb",
+      description: `A digital still camera made by SONY.
+      
+      Cyber-shot cameras are a brand of cameras made by Sony, first made in 1996, the Cyber-shot brand is still being sold up to the modern day. The cameras are point-and-shoot style, meaning they are easy to use, for amateur photographers only wanting to take quick pictures.
+      
+      The camera pictured here is powered by two AA batteries, as opposed to a rechargeable battery pack. It can take both still pictures and video, with the latter having no audio, and being limited in length by the amount of space remaining on the memory card.`,
+      img: "images/sony_dscp71_cybershot.png", 
+      alt: "Sony DSC-P71 Cyber-Shot", 
+      imageCredit: "Amazon",
+      imageLink: "https://www.amazon.com/Sony-DSCP71-Cyber-shot-Digital-Optical/dp/B000063S4J"
+    },
+
+    { id: "welta_watson_film_camera", 
+      title: "Welta Watson Film Camera (1938)", 
+      model: "models/welta_watson_film_camera.glb",
+      description: `A 35mm film camera made by Welta.
+      
+      The Watson film camera was sold originally for $19.50, but nowadays is worth around $175-$200.
+      
+      The Watson was one of the best quality cameras you could buy at the time. Most professional photographers used these kinds of cameras, in the 1940s.`,
+      img: "images/welta_watson_film_camera.png", 
+      alt: "Welta Watson Film Camera", 
+      imageCredit: "CJ's Classic Cameras",
+      imageLink: "http://www.cjs-classic-cameras.co.uk/other/welta.html"
+    },
+
+    { id: "rolleiflex_baby", 
+      title: "Rolleiflex Baby 4x4 Grey (1957)", 
+      model: "models/rolleiflex_baby_4x4_grey.glb", // No model available, not sure if it's in the physical library either.
+      description: `The Rolleiflex Baby came in 2 different colors, Black and Grey. The camera used 35mm film reels, and to use the camera, you had to look down, through the top was a hole housing a small screen which showed an image reflected from a mirror.
+      
+      The camera could be mounted on a tripod, and could have numerous accessories purchased for it.`,
+      img: "images/rolleiflex_baby_4x4_grey.png", 
+      alt: "Rolleiflex Baby 4x4 Grey", 
+      imageCredit: "Jeremy Mudd",
+      imageLink: "https://www.jeremymuddphoto.com/blog/2023/8/18/a-tale-of-two-babies-plus-patent-infringement-a-lawsuit-and-how-kodak-killed-the-4x4-image-format-part-2-of-2"
+    },
+
+    { id: "fifth_gen_ipod", 
+      title: "Fifth Generation iPod (2005)", 
+      model: "models/fifth_gen_ipod.glb", // Model missing
+      description: `The Fifth generation iPod, A.K.A. iPod with Video, was released in October of 2005, and came in two different sizes and colors that could be chosen between based on the customer's preferences; 30 or 60 Gigabytes of storage, and white and black in color.
+      
+      This iPod was the first to be able to play back video, in addition to feature from previous models like playing music and displaying photos. The screen was 2 & 1/2 inches in size, and in color.
+      
+      One feature of the iPod was the ability to use it like a removable drive. Because of the high capacity, you could set it to hard drive mode to load files to move from one computer to another.`,
+      img: "images/fifth_gen_ipod.png", 
+      alt: "Fifth Generation iPod", 
+      imageCredit: "Wikimedia Commons",
+      imageLink: "https://commons.wikimedia.org/wiki/File:Ipod_5th_Generation_white_rotated.png"
+    },
+
+    { id: "canon_at_1", 
+      title: "Canon AT-1 Film Camera (1977)", 
+      model: "models/canon_at_1.glb", 
+      description: `This camera, despite being a camera made in Japan, was never sold in Japan. It was only made for export to the US.
+      
+      Its lens could be swapped with either 35 millimeter or 50 mm accessories, and it took rolls of film. which could be developed at a local drugstore.`,
+      img: "images/canon_at_1.png", 
+      alt: "Canon AT-1 Film Camera", 
+      rotation: "180deg 180deg 0deg",
+      imageCredit: "Canon Camera Museum",
+      imageLink: "https://global.canon/en/c-museum/product/film96.html"
+    },
+
+    { id: "lg_extravert_2", 
+      title: "LG Extravert 2 (2014)", 
+      model: "models/lg_extravert_2.glb", 
+      description: `This phone seems to be a relic of times gone by, of clunky operating systems and flip phones, with buttons galore. Yet, this phone was sold as recently as 2018.
+      
+      It features a slide-out backlit keyboard, a 2 megapixel camera, and expandable storage using microSD cards. This phone doesn't have a sim card slot, as it's locked to Verizon.
+      
+      It could run apps that gave it features like those of the Palm 3, Calendar, Email, and contacts can be accessed, as well as other basic smartphone features.`,
+      img: "images/lg_extravert_2.png", 
+      alt: "LG Extravert 2", 
+      rotation: "180deg -10deg 180deg",
+      imageCredit: "LG Electronics",
+      imageLink: "https://www.lg.com/us/cell-phones/lg-VN280-extravert-2"
     }
+
   ];

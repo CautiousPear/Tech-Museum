@@ -54,6 +54,8 @@
 
         viewer.src = itemData.model;
 
+        viewer.orientation = itemData.rotation || "0deg 0deg 0deg"; //Fix models with incorrect orientation
+
         viewer.addEventListener("error", () => {
           viewer.style.display = "none";
         });
