@@ -1,4 +1,4 @@
-import { museumObjects } from 'data.js';
+import { museumObjects } from './data.js';
 
 const mainFloor = document.getElementById('museum-floor');
 

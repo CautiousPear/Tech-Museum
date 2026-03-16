@@ -32,7 +32,7 @@ export const museumObjects = [
 
     { id: "ibm_disk_drives", 
       title: "IBM Computer Disk Drives (1960s)", 
-      model: "../models/ibm_disk_drives.glb", // Model missing
+      model: "models/ibm_disk_drives.glb", // Model missing
       description: `In the early days of computing devices were much bigger, at least in physical size, than they are today and were also mostly IBM brand. The IBM Hard Disk Drive on the top right was 15 inches in diameter, but could only store 1 Megabyte of information!
       
       Pictured below is the Memorex Mark XIII Disk Pack. At the time, various companies were making their hard drives plug-compatible, this one was interchangeable with the IBM 2316 Disk Module's Disk Packs.`,
@@ -58,7 +58,7 @@ export const museumObjects = [
 
     { id: "mechanical_adding_machine", 
       title: "Burroughs Mechanical Adding Machine (1901)", 
-      model: "../models/mechanical_adding_machine.glb", 
+      model: "models/mechanical_adding_machine.glb", 
       description: `The adding machine was a revolutionary product in terms of business, as beforehand people had to add manually many different totals in large transactions.
       
       It may have been limited to addition, but that didn't stop businesses the country over from using the early calculators in most, if not all of their transactions.
@@ -72,7 +72,7 @@ export const museumObjects = [
 
     { id: "dead_reckoning_computer", 
       title: "Kane Mark 6b Dead-reckoning computer (1957)", 
-      model: "../models/dead_reckoning_computer.glb", 
+      model: "models/dead_reckoning_computer.glb", 
       description: `The dead reckoning computer was a device used to manually calculate your position in the air by integrating velocity and direction over the course of your journey.
       
       Nowadays computers handle the job of most of the necessary calculations, but in the 60s and before, you had to calculate everything yourself, so naturally most pilots used tools not unlike this one!`,
@@ -84,7 +84,7 @@ export const museumObjects = [
 
     { id: "sony_fd100_mavica", 
       title: "Sony FD-100 Mavica (2002)", 
-      model: "../models/sony_fd100_mavica.glb", 
+      model: "models/sony_fd100_mavica.glb", 
       description: `A digital camera made by SONY. It was released in 2002. and used 3&1/2 inch floppy disks for storing photos, as well as memory sticks.
       
       You could take video, in addition to pictures, of up to 5 seconds. It may seem incredibly short, but for its time, 5 seconds of video without a camcorder was nearly a miracle`,
@@ -96,7 +96,7 @@ export const museumObjects = [
 
     { id: "sony_fd97_mavica", 
       title: "Sony FD-97 Mavica (2001)", 
-      model: "../models/sony_fd97_mavica.glb", 
+      model: "models/sony_fd97_mavica.glb", 
       description: `This camera could take HD photos (1024 x 70) and write them to either a memory stick, or a floppy drive.
       
       You could record 5 second long videos with a floppy drive inserted, or longer with a memory stick.
@@ -110,7 +110,7 @@ export const museumObjects = [
 
     { id: "ibm_calculator_tool", 
       title: "IBM Machine Load Computer Slide Rule (1950s)", 
-      model: "../models/ibm_calculator_tool.glb", 
+      model: "models/ibm_calculator_tool.glb", 
       description: `"This plastic rectangular instrument calculated the time required for different types of IBM punched card equipment to process given numbers of cards. 
       
       The black side is for accounting machines, sorters, and collators. The white side is for card punches, verifiers, and auxiliary machines. 
@@ -124,7 +124,7 @@ export const museumObjects = [
 
     { id: "ibm_port_a_punch", 
       title: "IBM Port-a-Punch & Punch Cards (1958)", 
-      model: "../models/ibm_port_a_punch.glb", 
+      model: "models/ibm_port_a_punch.glb", 
       description: `Used for manually punching cards to enter data into a computer.
       
       Other items pictured promotional leaflets, punch cards, and a black info card.`,
@@ -136,7 +136,7 @@ export const museumObjects = [
 
     { id: "watson_film_loader", 
       title: "Watson '66' Bulk Film Loader (c. 1960s-1970s)", 
-      model: "../models/watson_film_loader.glb", // Model missing, but have a low-quality version possible
+      model: "models/watson_film_loader.glb", // Model missing, but have a low-quality version possible
       description: `A Watson '66' Bulk Film Loader, from the late 1960s, early 1970s. It was used to load film into cameras, without the use of a darkroom.
       
       Normally if film is exposed to light, it's ruined. This device was quite useful in preventing that.`,
@@ -148,7 +148,7 @@ export const museumObjects = [
 
     { id: "sony_fd73_mavica", 
       title: "Sony Mavica FD-73 (1999)", 
-      model: "../models/sony_fd73_mavica.glb", 
+      model: "models/sony_fd73_mavica.glb", 
       description: `A digital camera made by SONY. It was released on August 24, 1999 for $599, and used 3&1/2 inch floppy disks for storing photos.
       
       It also had an email option for pictures. This mode compressed photos to make sending an email containing one quicker.`,
@@ -160,7 +160,7 @@ export const museumObjects = [
 
     { id: "sony_fd7_mavica", 
       title: "Sony Mavica FD-7 (1997)", 
-      model: "../models/sony_fd7_mavica.glb", 
+      model: "models/sony_fd7_mavica.glb", 
       description: `This camera was one of the first digital cameras to support proper optical zoom (10x). It was also the second digital camera Sony made. It could take pictures at 640 x 480 resolution, the upper limit of standard definition.
       
       The FD in its name stands for Floppy Disk, as 3 & 1/2 inch floppies could be used with the camera.`,
@@ -172,7 +172,7 @@ export const museumObjects = [
 
     { id: "cassette_recorder_player", 
       title: "General Electric Tape Recorder & Player 3-5027 (1982)", 
-      model: "../models/cassette_recorder_player.glb", 
+      model: "models/cassette_recorder_player.glb", 
       description: `This cassette player came with a power adapter, but could be played off a set of four AA batteries. When the cassette tape was put inside the player, you could record and play back audio, as well as fast forward, rewind, and stop playback and recording.
       
       This device has no display, so you had to guess where you thought you were on the tape while rewinding or fast forwarding.
@@ -186,7 +186,7 @@ export const museumObjects = [
 
     { id: "starflex_film_camera", 
       title: "Kodak Brownie Starflex Film Camera (1957)", 
-      model: "../models/starflex_film_camera.glb", 
+      model: "models/starflex_film_camera.glb", 
       description: `A film camera by Kodak. It was priced new at just $10, and used rolls of film to store pictures, which needed to be taken to a store to be developed.
       
       It came with a one-use flash bulb, and one roll of film. It could also switch between taking color, and black & white photos.
@@ -200,7 +200,7 @@ export const museumObjects = [
 
     { id: "iomega_zip_drives", 
       title: "Iomega Zip Drive and Zip disks (1994)", 
-      model: "../models/iomega_zip_drives.glb", 
+      model: "models/iomega_zip_drives.glb", 
       description: `Iomega released these in late 1994, and for its time the disks used were medium to high capacity drives, with space clocking in at 100 megabytes, and being expanded later on to 250 and 750 megabytes. Hard drives at the time were around 500mb in size, making these a relatively cheap way to back a computer up. While the zip drive itself cost $200, the same as the 500mb hard drive, the disks were relatively cheap at around a quarter of the price.
       
       Despite being 3 decades old, they are still used today, in both aeronautical flight control computers, and by vintage tech enthusiasts.
@@ -218,7 +218,7 @@ export const museumObjects = [
 
     { id: "pentium_ii_cpu", 
       title: "Intel Pentium II CPU (1997)", 
-      model: "../models/intel_pentium_ii_cpu.glb", // Model missing
+      model: "models/intel_pentium_ii_cpu.glb", // Model missing
       description: `The Pentium II is a 6th generation x86 microprocessor, released in 1997. It was the successor to the original Pentium, and was succeeded by the Pentium III in 1999. The Pentium II was a significant improvement over the original Pentium, combining the new P6 architecture also found on the Pentium Pro and support for MMX technology.
       
       It contains 7.5 million transistors, over double the 3.1 million in the original Pentium, but far from the 10-25 billion in most modern CPUs!`,
@@ -230,7 +230,7 @@ export const museumObjects = [
 
     { id: "intel_core_2_duo_cpu", 
       title: "Intel Core 2 Duo (2006)", 
-      model: "../models/intel_core_2_duo_cpu.glb", 
+      model: "models/intel_core_2_duo_cpu.glb", 
       description: `The Intel Core 2 Duo, introduced in 2006, was a groundbreaking 64-bit dual-core processor family that significantly boosted performance over previous Pentium models using the efficient Core microarchitecture.
       
       These processors, often utilizing Socket 775, are largely obsolete for modern gaming but remain suitable for basic retro computing, lightweight tasks, and older operating systems like Windows XP.`,
@@ -242,7 +242,7 @@ export const museumObjects = [
 
     { id: "sony_memory_floppy_adapter", 
       title: "Sony Memory Stick to Floppy Disk Adapter (2000)", 
-      model: "../models/sony_memory_floppy_adapter.glb", // Model missing
+      model: "models/sony_memory_floppy_adapter.glb", // Model missing
       description: `This adapter allowed the usage of memory sticks on older computers with only floppy drives and compatible Mavica cameras, when used with compatible software installed.`,
       img: "images/sony_memory_floppy_adapter.png", 
       alt: "Sony Memory Stick to Floppy Disk Adapter", 
@@ -252,7 +252,7 @@ export const museumObjects = [
 
     { id: "pny_smart_media_card", 
       title: "PNY Smart Media card (1995)", 
-      model: "../models/pny_smart_media_card.glb", // Model missing
+      model: "models/pny_smart_media_card.glb", // Model missing
       description: `Marketed as the successor to floppy disks, it came as big as 128Mb.`,
       img: "images/pny_smart_media_card.png", 
       alt: "PNY Smart Media Card", 
