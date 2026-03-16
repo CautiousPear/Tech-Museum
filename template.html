@@ -57,15 +57,15 @@
         viewer.addEventListener("error", () => {
           viewer.style.display = "none";
         });
+
+        // Credits footer information
+        const creditAnchor = document.getElementById("display-imageCredit");
+        creditAnchor.textContent = itemData.imageCredit;
+        creditAnchor.href = itemData.imageLink;
       } else {
         document.getElementById("display-title").textContent =
           "Object Not Found";
       }
-
-      // Credits footer information
-      const creditAnchor = document.getElementById("display-imageCredit");
-      creditAnchor.textContent = itemData.imageCredit;
-      creditAnchor.href = itemData.imageLink;
     </script>
     <footer>
       <div class="credits-section">
