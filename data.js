@@ -216,13 +216,13 @@ export const museumObjects = [
       imageLink: "https://www.bhphotovideo.com/c/product/570302-REG/Iomega_31653_Zip_250MB_External_USB.html/reviews"
     },
 
-    { id: "intel_pentium_II_cpu", 
+    { id: "intel_pentium_2_cpu", 
       title: "Intel Pentium II CPU (1997)", 
-      model: "models/intel_pentium_II_cpu.glb", // Model missing
+      model: "models/intel_pentium_2_cpu.glb", // Model missing
       description: `The Pentium II is a 6th generation x86 microprocessor, released in 1997. It was the successor to the original Pentium, and was succeeded by the Pentium III in 1999. The Pentium II was a significant improvement over the original Pentium, combining the new P6 architecture also found on the Pentium Pro and support for MMX technology.
       
       It contains 7.5 million transistors, over double the 3.1 million in the original Pentium, but far from the 10-25 billion in most modern CPUs!`,
-      img: "images/intel_pentium_II_cpu.png", 
+      img: "images/intel_pentium_2_cpu.png", 
       alt: "Intel Pentium II CPU", 
       imageCredit: "Wikimedia Commons",
       imageLink: "https://commons.wikimedia.org/wiki/File:Intel_Pentium_II_350_MHz.jpg"
