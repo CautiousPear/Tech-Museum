@@ -20,7 +20,7 @@ export const museumObjects = [
     { link: "pages/sony_memory_floppy_adapter.html", img: "images/sony_memory_floppy_adapter.png", alt: "Sony Memory Stick Floppy Adapter" },*/
     { id: "underwood_typewriter", 
       title: "Underwood Typewriter (1901-1907)", 
-      model: "../models/underwood_typewriter.glb", 
+      model: "models/underwood_typewriter.glb", 
       description: `The most popular typewriter of the pre-WWII period, the Underwood No.5 laid down a standard of quality that other typewriter companies were quick to copy. 
       
       It worked by using metal rods with small letter and number stamps on their ends to strike an ink ribbon, and leave marks on an inserted sheet of paper.`,
@@ -44,7 +44,7 @@ export const museumObjects = [
 
     { id: "balopticon", 
       title: "Bausch & Lomb Balopticon (1901)", 
-      model: "../models/balopticon.glb", // Model missing
+      model: "models/balopticon.glb", // Model missing
       description: `The Balopticon was like an early 1900s version of what the PowerPoint application does today. It was named after the Bausch and Lomb Optical Company, though many knew it by another name: the Magic Lantern.
       
       They were widely used in schools to project film images across the country, by photographers or families looking to share their film images, and even some traveling salesmen.
