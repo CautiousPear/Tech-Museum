@@ -7,14 +7,10 @@ function renderMuseum() {
 
   mainFloor.innerHTML = '';
 
-  let itemsPerShelf;
-  if (window.innerWidth < 600) {
-    itemsPerShelf = 3; // Fewer items for small phones
-  } else if (window.innerWidth < 1000) {
-    itemsPerShelf = 4; // Mid-size for smaller devices
-  } else {
-    itemsPerShelf = 6; // Standard for desktop
-  }
+  // Calculate how many items can fit on a shelf based on the window width
+  // 1080p horizontal resolution is 1920px, target is 6 items per shelf 1080p
+  // 1920px / 6 items = 320px per item (including margins) 
+  let itemsPerShelf = Math.round(window.innerWidth / 320)
 
   // Group objects into shelves and create HTML for each shelf
   for (let i = 0; i < museumObjects.length; i += itemsPerShelf) {
