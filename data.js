@@ -279,8 +279,23 @@ export const museumObjects = [
       imageLink: "https://en.wikipedia.org/wiki/Magnetic_tape#/media/File:Magtape1.jpg"
     }, 
 
-    /*{ id: "floppy_disks", // Multiple models, but not sure how to display them. Will add later.
-    }, */ 
+    { id: "floppy_disks", // Have multiple models to add
+      title: "Floppy Disks / Drives (1960s-1980s)", 
+      model: "models/floppy_drive_5.25_in.glb",
+      description: `Floppy disks were a cheap new way to transfer and store data, holding usually almost 243 kilobytes for the 8-inch, 360 kilobytes to 1.2 megabytes for the 5 & 1/4 inch, and 3 & 1/2 inch floppies increased the maximum space to 1.44 megabytes.
+
+      They got their name from the flexible nature of the disks, which were made from thin plastics and a felt layer, to protect from dust on the disk.
+
+      The 3 & 1/2 inch floppy had a more complex and rigid build to it, which made it cost up to two times more than the actually floppy disks. 
+      
+      Floppies were used from the 60s to the first years of the 2000s, and as such they have left an impact on many different areas of entertainment and pop culture. You may recognize that for many different computer programs, the save icon is a 3 & 1/2 inch floppy drive, from Microsoft Office, to video games and more!
+
+      Pictured below is the 5 & 1/4 inch floppy disk drive. The larger models were most often used in large computer mainframes.`,
+      img: "images/floppy_drive_5.25_in.png", 
+      alt: "5.25 Inch Floppy Disk Drive", 
+      imageCredit: "Michael Holley",
+      imageLink: "https://en.wikipedia.org/wiki/Floppy_disk"
+    }, 
 
     { id: "early_board", 
       title: "Early Computer Board (???)", 
@@ -493,12 +508,38 @@ export const museumObjects = [
       
       It features a slide-out backlit keyboard, a 2 megapixel camera, and expandable storage using microSD cards. This phone doesn't have a sim card slot, as it's locked to Verizon.
       
-      It could run apps that gave it features like those of the Palm 3, Calendar, Email, and contacts can be accessed, as well as other basic smartphone features.`,
+      It could run apps that gave it features like those of the Palm 3. Calendar, Email, and contacts can be accessed, as well as other basic smartphone features.`,
       img: "images/lg_extravert_2.png", 
       alt: "LG Extravert 2", 
       rotation: "180deg -10deg 180deg",
       imageCredit: "LG Electronics",
       imageLink: "https://www.lg.com/us/cell-phones/lg-VN280-extravert-2"
-    }
+    },
+
+    { id: "canon_rebel_x", 
+      title: "Canon EOS Rebel X S (1993)", 
+      model: "models/canon_rebel_x.glb", 
+      description: `The Canon EOS Rebel XS, also known as the EOS 500 in Europe and Asia, and EOS Kiss in Japan, is a 35mm film SLR camera popular in the '90s. 
+
+      The camera provided many useful accessories, such as a motor drive for automatic film advancement, a flash unit, viewfinder, and photography settings including zoom, exposure control, and aperture modes.
+
+      Due to its ease of use and affordability, it became a popular choice for many families, maintaining the top market share for SLR cameras for an extended period.`,
+      img: "images/canon_rebel_x.png", 
+      alt: "Canon EOS Rebel XS", 
+      imageCredit: "Canon",
+      imageLink: "https://global.canon/en/c-museum/product/film162.html"
+    },
+
+    { id: "compaq_ipaq", 
+      title: "Compaq iPAQ (Specific model unknown)(1993)", 
+      model: "models/compaq_ipaq.glb", 
+      description: `The Compaq iPAQ 3800 is a handheld computer that was released in 1993. It features a 3.5-inch active-matrix color display, a 333 MHz StrongARM processor, and 64 MB of RAM.
+
+      The device can be used as a portable computer for tasks such as word processing, spreadsheet management, and email communication.`,
+      img: "images/compaq_ipaq.png", 
+      alt: "Compaq iPAQ (Specific model unknown)", 
+      imageCredit: "Compaq",
+      imageLink: "https://web.archive.org/web/19991224224525/http://www.compaq.com/products/pda/ipaq/"
+    } 
 
   ];
