@@ -48,6 +48,7 @@ export const museumObjects = [
       The machine pictured below is of a Model 3, made from 1910-1911. The ink ribbon still works after all this time, so feel free to give it a whirl while it's wet! (At out physical museum, of course.)`,
       img: "images/mechanical_adding_machine.png", 
       alt: "Mechanical Adding Machine", 
+      rotation: "0deg 0deg 150deg",
       imageCredit: "John Wolff's Antique Calculators",
       imageLink: "https://www.johnwolff.id.au/calculators/Burroughs/Burroughs.htm"
     },
@@ -298,7 +299,7 @@ export const museumObjects = [
     }, 
 
     { id: "early_board", 
-      title: "Early Computer Board (???)", 
+      title: "Early Computer Board (Year Unknown)", 
       model: "models/early_computer_board.glb",
       description: `Pictured is a board from an early computer. The wires worked like etchings on a modern circuit.
       
@@ -309,7 +310,7 @@ export const museumObjects = [
     }, 
 
     { id: "ibm_system_board", 
-      title: "IBM Card Equipment Programming Plugboard (???)", 
+      title: "IBM Card Equipment Programming Plugboard (Year Unknown)", 
       model: "models/ibm_system_board.glb", 
       description: `A board from an IBM card punch calculator from the WWII era.
 
@@ -411,7 +412,7 @@ export const museumObjects = [
     },
 
     { id: "cathode_ray_tube_display", 
-      title: "Cathode Ray Tube Display (???)", 
+      title: "Cathode Ray Tube Display", 
       model: "models/cathode_ray_tube_display.glb", // Model missing, but have a very low-quality version possible
       description: `Cathode ray tube displays (CRTs) utilized the vacuum tube on the back would work with an electron gun to project an image onto the phosphorescent screen. 
       
@@ -530,16 +531,66 @@ export const museumObjects = [
       imageLink: "https://global.canon/en/c-museum/product/film162.html"
     },
 
-    { id: "compaq_ipaq", 
-      title: "Compaq iPAQ (Specific model unknown)(1993)", 
-      model: "models/compaq_ipaq.glb", 
-      description: `The Compaq iPAQ 3800 is a handheld computer that was released in 1993. It features a 3.5-inch active-matrix color display, a 333 MHz StrongARM processor, and 64 MB of RAM.
+    { id: "ipaq_3800", 
+      title: "Compaq iPAQ H3800 (2001)", 
+      model: "models/ipaq_3800.glb", 
+      description: `iPAQ is a discontinued line of PDA (personal digital assistant) orPocket PC devices from Compaq, before being bought out by HP. They were produced from 2000-2010, and use a Windows Mobile operating system, with the ability to use alternative Linux distributions (light-weight operating system), only one of which is actively maintained today. 
 
-      The device can be used as a portable computer for tasks such as word processing, spreadsheet management, and email communication.`,
-      img: "images/compaq_ipaq.png", 
-      alt: "Compaq iPAQ (Specific model unknown)", 
-      imageCredit: "Compaq",
-      imageLink: "https://web.archive.org/web/19991224224525/http://www.compaq.com/products/pda/ipaq/"
-    } 
+      The model below is the H3800, which was released in 2001, it added a secure digital expansion slot and more color on screen. Earlier models such as this one were modular, with support for a "sleeve" that could be attached to the back of the device, which added features such as a card reader, wireless networking, gps, and extra battery life. Newer models had most of these features built in, as well as extra features such as a radio and SIM card slot, so the sleeve was discontinued.
+
+      The MSRP (base price) of the H3800 was ~$599, and the sleeve could be purchased for an additional ~$100.
+      
+      PDA devices such as this were largely superseded by smart phones, which combined features of the PDA with the cell phone and digital camera.`,
+      img: "images/ipaq_3800.png", 
+      alt: "Compaq iPAQ (H3800)", 
+      imageCredit: "Pen Computing",
+      imageLink: "https://www.pencomputing.com/frames/ipaq_3800.html"
+    },
+
+    { id: "dell_axim_x51v", 
+      title: "Dell Axim X51v (2005)", 
+      model: "models/dell_axim_x51v.glb", 
+      description: `Axim is a discontinued line of PDA (personal digital assistant) or Pocket PC devices from Dell, produced from 2002 to 2007. It natively used the Windows Mobile operating system, but is partially compatible with Google's Android operating system thanks to community projects. There was an attempt to make a Linux distribution for the Axim, however it lacked many basic features such as sound and USB connectivity.
+
+      Most later Axim models had built in wi-fi, bluetooth, and SD and Type II CompactFlash slots.
+
+      The model below is the X51v, which was released in 2005, the last model in the Axim line. The X51 series had 3 different models, the X51 low-end, X-51 mid-range, and the X51v. The X51v was the most expensive of the three, and it had the most features, such as a faster processor, more ROM (Read-Only Memory, typically used for firmware), and a larger and improved screen.
+      
+      PDA devices such as this were largely superseded by smart phones, which combined features of the PDA with the cell phone and digital camera.`,
+      img: "images/dell_axim_x51v.png", 
+      alt: "Dell Axim X51v", 
+      imageCredit: "PCMag",
+      imageLink: "https://uk.pcmag.com/mobile-phones/100680/dell-axim-x51v"
+    },
+
+    { id: "ld_pioneer_v4200", 
+      title: "Pioneer LD-V4200 LaserDisc Player (c. 1980s)", 
+      model: "models/ld_pioneer_v4200.glb", 
+      description: `LaserDisc was the first commercial optical disc format, such as CDs and DVDs. They were able to used for various forms of media, including video, music, and video games.
+
+      LaserDisc was developed by Philips, Pioneer, and MCA, and initially entered the market as "DiscoVision", used by MCA. After Pioneer became the primary developer of the format, it was re-branded as "LaserVision". LaserDisc was initially the branding for their LaserVision players, however "LaserDisk" gradually became synonymous with the format itself. 
+      
+      Pictured below is the Pioneer LD-V4200, which is an industrial LaserDisc player produced in the late 1980s. Industrial players were primarily marketed towards education and training. It uses a laser diode to read data from the spinning disc and translates it into an image you can see.
+
+      LaserDisc was primarily only popular in Japan, and Pioneer exited the market in 2009. However, the LaserDisc format is still a favorite among enthusiasts.`,
+      img: "images/ld_pioneer_v4200.png", 
+      alt: "Dell Axim X51v", 
+      imageCredit: "SpenCertified",
+      imageLink: "https://spencertified.com/products/pioneer-ld-v4200-laserdisc-player-hi-fi-commercial-av-equipment-made-in-japan-no-remote"
+    },
+
+    { id: "kodak_tele_instamatic", 
+      title: "Kodak Tele-Instamatic 608 (1975)", 
+      model: "models/kodak_tele_instamatic.glb", 
+      description: `The Kodak Tele-Instamatic 608 is a 110 cartridge film camera released in 1975. It can capture color or black and white images, depending on the film loaded into it.
+
+      It impressively houses both a regular and telephoto lens in it's small size, which allows for better pictures of objects at a distance. 
+
+      110 film cartridges are no longer in production, so the film can be difficult to source. Regardless, many people are fans of the vintage and nostalgic feel it provides.`,
+      img: "images/kodak_tele_instamatic.png", 
+      alt: "Kodak Tele-Instamatic 608", 
+      imageCredit: "Etry Seller",
+      imageLink: "https://www.etsy.com/listing/4297461002/vintage-kodak-tele-instamatic-pocket"
+    }
 
   ];
