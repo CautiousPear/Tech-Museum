@@ -14,7 +14,6 @@ function renderMuseum() {
 
   // Group objects into shelves and create HTML for each shelf
   for (let i = 0; i < museumObjects.length; i += itemsPerShelf) {
-    // Create a new shelf div
     const shelfDiv = document.createElement('div');
     shelfDiv.className = 'shelf';
 
@@ -35,7 +34,6 @@ function renderMuseum() {
       shelfDiv.appendChild(anchor);
     });
 
-    // Add the completed shelf to the page
     mainFloor.appendChild(shelfDiv);
   }
 }

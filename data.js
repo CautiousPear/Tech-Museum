@@ -629,11 +629,11 @@ export const museumObjects = [
       
       This CMOS DRAM module was produced by Samsung in 1988, with 1 MB capacity and a latency of 80 ns (nanoseconds) running at 5V. 
       
-      A notable thing about this module is that it is a 30-pin SIMM module that contains 8 one-bit-wide memory chips. Without going into too much detail, memory ideally communicates in 'bytes' of data, each of which contains 8 'bits', and each chip provides one bit of information. However, most 30-pin SIMM modules contain 9 chips, with the ninth chip being used for parity, detecting if an error had occured within the transfer of information, telling the computer not to store that byte of information.
+      A notable thing about this module is that it is a 30-pin SIMM module that contains 8 one-bit-wide memory chips. Without going into too much detail, memory ideally communicates in 'bytes' of data, each of which contains 8 'bits', and each chip provides one bit of information. However, most 30-pin SIMM modules contain in the 80's had 9 chips, with the ninth chip being used for parity, detecting if an error had occured within the transfer of information. If a bit was flipped (0 to 1, or 1 to 0) the parity bit would be false, and would freeze or crash the computer. This was preferred over corrupting the destination file.
       
-      In this situation, you can see that the last chip is seemingly missing! This means that this specific module is likely a "logic parity" or "fake parity" version. Early computers often required the 9-bit parity-checking to prevent data corruption, however cheaper 8-bit RAM modules were produced that created a fake ninth parity bit that could be used to fool the system.
+      In this situation, you can see that the last chip is seemingly missing! Because this module was produced in the late 80's, the issue with corrupted readings was mostly minimized. However, this board still contains the traces for the ninth chip, because modules with the parity chip were still being produced at the time.
       
-      This RAM parity situation is largely irrelevant today, due to modern RAM being much less prone to errors.`,
+      Because RAM was the most expensive component in a PC in the 80's, cutting down on the last chip and taking the minicscule risk of corrupted files was worth it to most people.`,
       img: "images/samsung_early_ram.png", 
       alt: "Panasonic NV-DS77 MiniDV Camcorder",
       imageCredit: "eBay Seller",
