@@ -534,7 +534,7 @@ export const museumObjects = [
     { id: "ipaq_3800", 
       title: "Compaq iPAQ H3800 (2001)", 
       model: "models/ipaq_3800.glb", 
-      description: `iPAQ is a discontinued line of PDA (personal digital assistant) orPocket PC devices from Compaq, before being bought out by HP. They were produced from 2000-2010, and use a Windows Mobile operating system, with the ability to use alternative Linux distributions (light-weight operating system), only one of which is actively maintained today. 
+      description: `iPAQ is a discontinued line of PDA (personal digital assistant) orPocket PC devices from Compaq, before being bought out by HP. Their primary functions were to manage personal information like calendars, contacts, and to-do lists, and many allowed the user to play music and access the internet. They were produced from 2000-2010, and use a Windows Mobile operating system, with the ability to use alternative Linux distributions (light-weight operating system), only one of which is actively maintained today. 
 
       The model below is the H3800, which was released in 2001, it added a secure digital expansion slot and more color on screen. Earlier models such as this one were modular, with support for a "sleeve" that could be attached to the back of the device, which added features such as a card reader, wireless networking, gps, and extra battery life. Newer models had most of these features built in, as well as extra features such as a radio and SIM card slot, so the sleeve was discontinued.
 
@@ -550,7 +550,7 @@ export const museumObjects = [
     { id: "dell_axim_x51v", 
       title: "Dell Axim X51v (2005)", 
       model: "models/dell_axim_x51v.glb", 
-      description: `Axim is a discontinued line of PDA (personal digital assistant) or Pocket PC devices from Dell, produced from 2002 to 2007. It natively used the Windows Mobile operating system, but is partially compatible with Google's Android operating system thanks to community projects. There was an attempt to make a Linux distribution for the Axim, however it lacked many basic features such as sound and USB connectivity.
+      description: `Axim is a discontinued line of PDA (personal digital assistant) or Pocket PC devices from Dell, produced from 2002 to 2007. Their primary functions were to manage personal information like calendars, contacts, and to-do lists, and many allowed the user to play music and access the internet. They natively used the Windows Mobile operating system, but are partially compatible with Google's Android operating system thanks to community projects. There was an attempt to make a Linux distribution for the Axim, however it lacked many basic features such as sound and USB connectivity.
 
       Most later Axim models had built in wi-fi, bluetooth, and SD and Type II CompactFlash slots.
 
@@ -561,6 +561,22 @@ export const museumObjects = [
       alt: "Dell Axim X51v", 
       imageCredit: "PCMag",
       imageLink: "https://uk.pcmag.com/mobile-phones/100680/dell-axim-x51v"
+    },
+
+    { id: "palm_tungsten_e", 
+      title: "Palm Tungsten E (2003)", 
+      model: "models/palm_tungsten_e.glb", 
+      description: `Tungsten is a discontinued line of PDA (personal digital assistant) or Pocket PC devices from Palm, produced from 2002 to 2005. Their primary functions were to manage personal information like calendars, contacts, and to-do lists. They used the Palm-OS operating system and were made to compete with the Sony CLIE and Windows Mobile PDAs.
+      
+      Pictured below is the Palm Tungsten E, the cheapest of the tungsten series, priced at $199. It was one of the most successful from their lineup. However, it had no bluetooth or wi-fi connectivity that is featured in some of their other models. 
+      
+      The Tungsten E supported a standard 3.5mm headphone jack, speaker, and mini USB, an outdated connector found in many older portable devices. The buttons on the bottom are used to access applications, and is implemented into all models in the Tungsten series.
+      
+      The Tungsten E was superseded in 2005 bu the Tungsten E2, an improved version at the same price, and later smartphones, which combined features of the PDA with the cell phone and digital camera.`,
+      img: "images/palm_tungsten_e.png", 
+      alt: "Palm Tungsten E", 
+      imageCredit: "eBay Seller",
+      imageLink: "https://www.ebay.com/itm/126823596081"
     },
 
     { id: "ld_pioneer_v4200", 
@@ -589,8 +605,39 @@ export const museumObjects = [
       110 film cartridges are no longer in production, so the film can be difficult to source. Regardless, many people are fans of the vintage and nostalgic feel it provides.`,
       img: "images/kodak_tele_instamatic.png", 
       alt: "Kodak Tele-Instamatic 608", 
-      imageCredit: "Etry Seller",
+      imageCredit: "Etsy Seller",
       imageLink: "https://www.etsy.com/listing/4297461002/vintage-kodak-tele-instamatic-pocket"
+    },
+
+    { id: "panasonic_mini_dv", 
+      title: "Panasonic NV-DS77 MiniDV Camcorder (1999)", 
+      model: "models/panasonic_mini_dv.glb", 
+      description: `The NV-DS77 from Panadonic was a digital camera which recorded onto MiniDV tapes. Each MiniDV tapes was capable up storing ~15 GB of video, or a bit over 1 hour of video.
+      
+      This camcorder boasted various features, including 100x zoom, a color LCD display, night mode, viewfinder, and video effects.`,
+      img: "images/panasonic_mini_dv.png", 
+      alt: "Panasonic NV-DS77 MiniDV Camcorder", 
+      rotation: "0deg 0deg 120deg",
+      imageCredit: "eBay Seller",
+      imageLink: "https://www.ebay.it/itm/157177939711"
+    },
+
+    { id: "samsung_early_ram", 
+      title: "Samsung DRAM Module (1988)", 
+      model: "models/samsung_early_ram.glb", 
+      description: `Although no info was provided about this item, we can determine several things based on the serial number.
+      
+      This CMOS DRAM module was produced by Samsung in 1988, with 1 MB capacity and a latency of 80 ns (nanoseconds) running at 5V. 
+      
+      A notable thing about this module is that it is a 30-pin SIMM module that contains 8 one-bit-wide memory chips. Without going into too much detail, memory ideally communicates in 'bytes' of data, each of which contains 8 'bits', and each chip provides one bit of information. However, most 30-pin SIMM modules contain 9 chips, with the ninth chip being used for parity, detecting if an error had occured within the transfer of information, telling the computer not to store that byte of information.
+      
+      In this situation, you can see that the last chip is seemingly missing! This means that this specific module is likely a "logic parity" or "fake parity" version. Early computers often required the 9-bit parity-checking to prevent data corruption, however cheaper 8-bit RAM modules were produced that created a fake ninth parity bit that could be used to fool the system.
+      
+      This RAM parity situation is largely irrelevant today, due to modern RAM being much less prone to errors.`,
+      img: "images/samsung_early_ram.png", 
+      alt: "Panasonic NV-DS77 MiniDV Camcorder",
+      imageCredit: "eBay Seller",
+      imageLink: "https://www.ebay.com/itm/225716046496"
     }
 
   ];
