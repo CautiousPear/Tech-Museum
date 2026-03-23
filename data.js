@@ -1,6 +1,7 @@
 export const museumObjects = [
 
     { id: "underwood_typewriter", 
+      category: "misc",
       title: "Underwood Typewriter (1901-1907)", 
       model: "models/underwood_typewriter.glb", 
       description: `The most popular typewriter of the pre-WWII period, the Underwood No.5 laid down a standard of quality that other typewriter companies were quick to copy. 
@@ -13,6 +14,7 @@ export const museumObjects = [
     },
 
     { id: "ibm_disk_drives", 
+      category: "storage",
       title: "IBM Computer Disk Drives (1960s)", 
       model: "models/ibm_disk_drives.glb", // Model missing
       description: `In the early days of computing devices were much bigger, at least in physical size, than they are today and were also mostly IBM brand. The IBM Hard Disk Drive on the top right was 15 inches in diameter, but could only store 1 Megabyte of information!
@@ -25,6 +27,7 @@ export const museumObjects = [
     },
 
     { id: "balopticon", 
+      category: "photography",
       title: "Bausch & Lomb Balopticon (1901)", 
       model: "models/balopticon.glb", // No model available, not sure if it's in the physical library either.
       description: `The Balopticon was like an early 1900s version of what the PowerPoint application does today. It was named after the Bausch and Lomb Optical Company, though many knew it by another name: the Magic Lantern.
@@ -38,7 +41,8 @@ export const museumObjects = [
       imageLink: "https://www.gibsonsauctions.com.au/auction-lot/a-vintage-bausch-and-lomb-balopticon-slide-proj_F654B298F6.jpg"
     },
 
-    { id: "mechanical_adding_machine", 
+    { id: "mechanical_adding_machine",
+      category: "misc",
       title: "Burroughs Mechanical Adding Machine (1901)", 
       model: "models/mechanical_adding_machine.glb", 
       description: `The adding machine was a revolutionary product in terms of business, as beforehand people had to add manually many different totals in large transactions.
@@ -54,6 +58,7 @@ export const museumObjects = [
     },
 
     { id: "dead_reckoning_computer", 
+      category: "misc",
       title: "Kane Mark 6b Dead-reckoning computer (1957)", 
       model: "models/dead_reckoning_computer.glb", 
       description: `The dead reckoning computer was a device used to manually calculate your position in the air by integrating velocity and direction over the course of your journey.
@@ -66,11 +71,12 @@ export const museumObjects = [
     },
 
     { id: "sony_fd100_mavica", 
+      category: "photography",
       title: "Sony FD-100 Mavica (2002)", 
       model: "models/sony_fd100_mavica.glb", 
       description: `A digital camera made by SONY. It was released in 2002. and used 3&1/2 inch floppy disks for storing photos, as well as memory sticks.
       
-      You could take video, in addition to pictures, of up to 5 seconds. It may seem incredibly short, but for its time, 5 seconds of video without a camcorder was nearly a miracle`,
+      You could take video, in addition to pictures, of up to 5 seconds. It may seem incredibly short, but for its time, 5 seconds of video without a camcorder was nearly a miracle.`,
       img: "images/sony_fd100_mavica.png", 
       alt: "Sony FD-100 Mavica", 
       imageCredit: "Obsolete Sony",
@@ -78,6 +84,7 @@ export const museumObjects = [
     },
 
     { id: "sony_fd97_mavica", 
+      category: "photography",
       title: "Sony FD-97 Mavica (2001)", 
       model: "models/sony_fd97_mavica.glb", 
       description: `This camera could take HD photos (1024 x 70) and write them to either a memory stick, or a floppy drive.
@@ -92,6 +99,7 @@ export const museumObjects = [
     },
 
     { id: "ibm_calculator_tool", 
+      category: "misc",
       title: "IBM Machine Load Computer Slide Rule (1950s)", 
       model: "models/ibm_calculator_tool.glb", 
       description: `"This plastic rectangular instrument calculated the time required for different types of IBM punched card equipment to process given numbers of cards. 
@@ -106,6 +114,7 @@ export const museumObjects = [
     },
 
     { id: "ibm_port_a_punch", 
+      category: "misc",
       title: "IBM Port-a-Punch & Punch Cards (1958)", 
       model: "models/ibm_port_a_punch.glb", 
       description: `Used for manually punching cards to enter data into a computer.
@@ -118,6 +127,7 @@ export const museumObjects = [
     },
 
     { id: "watson_film_loader", 
+      category: "misc",
       title: "Watson '66' Bulk Film Loader (c. 1960s-1970s)", 
       model: "models/watson_film_loader.glb", // Model missing, but have a low-quality version possible
       description: `A Watson '66' Bulk Film Loader, from the late 1960s, early 1970s. It was used to load film into cameras, without the use of a darkroom.
@@ -130,6 +140,7 @@ export const museumObjects = [
     },
 
     { id: "sony_fd73_mavica", 
+      category: "photography",
       title: "Sony Mavica FD-73 (1999)", 
       model: "models/sony_fd73_mavica.glb", 
       description: `A digital camera made by SONY. It was released on August 24, 1999 for $599, and used 3&1/2 inch floppy disks for storing photos.
@@ -142,6 +153,7 @@ export const museumObjects = [
     },
 
     { id: "sony_fd7_mavica", 
+      category: "photography",
       title: "Sony Mavica FD-7 (1997)", 
       model: "models/sony_fd7_mavica.glb", 
       description: `This camera was one of the first digital cameras to support proper optical zoom (10x). It was also the second digital camera Sony made. It could take pictures at 640 x 480 resolution, the upper limit of standard definition.
@@ -154,6 +166,7 @@ export const museumObjects = [
     },
 
     { id: "cassette_recorder_player", 
+      category: ["photography", "players"],
       title: "General Electric Tape Recorder & Player 3-5027 (1982)", 
       model: "models/cassette_recorder_player.glb", 
       description: `This cassette player came with a power adapter, but could be played off a set of four AA batteries. When the cassette tape was put inside the player, you could record and play back audio, as well as fast forward, rewind, and stop playback and recording.
@@ -168,6 +181,7 @@ export const museumObjects = [
     },
 
     { id: "starflex_film_camera", 
+      category: "photography",
       title: "Kodak Brownie Starflex Film Camera (1957)", 
       model: "models/starflex_film_camera.glb", 
       description: `A film camera by Kodak. It was priced new at just $10, and used rolls of film to store pictures, which needed to be taken to a store to be developed.
@@ -182,6 +196,7 @@ export const museumObjects = [
     },
 
     { id: "iomega_zip_drives", 
+      category: "storage",
       title: "Iomega Zip Drive and Zip disks (1994)", 
       model: "models/iomega_zip_drives.glb", 
       description: `Iomega released these in late 1994, and for its time the disks used were medium to high capacity drives, with space clocking in at 100 megabytes, and being expanded later on to 250 and 750 megabytes. Hard drives at the time were around 500mb in size, making these a relatively cheap way to back a computer up. While the zip drive itself cost $200, the same as the 500mb hard drive, the disks were relatively cheap at around a quarter of the price.
@@ -200,6 +215,7 @@ export const museumObjects = [
     },
 
     { id: "intel_pentium_2_cpu", 
+      category: "parts",
       title: "Intel Pentium II CPU (1997)", 
       model: "models/intel_pentium_2_cpu.glb", // Model missing
       description: `The Pentium II is a 6th generation x86 microprocessor, released in 1997. It was the successor to the original Pentium, and was succeeded by the Pentium III in 1999. The Pentium II was a significant improvement over the original Pentium, combining the new P6 architecture also found on the Pentium Pro and support for MMX technology.
@@ -212,6 +228,7 @@ export const museumObjects = [
     }, // Would like to add a table later for specs
 
     { id: "intel_core_2_duo_cpu", 
+      category: "parts",
       title: "Intel Core 2 Duo (2006)", 
       model: "models/intel_core_2_duo_cpu.glb", 
       description: `The Intel Core 2 Duo, introduced in 2006, was a groundbreaking 64-bit dual-core processor family that significantly boosted performance over previous Pentium models using the efficient Core microarchitecture.
@@ -224,6 +241,7 @@ export const museumObjects = [
     }, // Would like to add a table later for specs
 
     { id: "sony_memory_floppy_adapter", 
+      category: "misc",
       title: "Sony Memory Stick to Floppy Disk Adapter (2000)", 
       model: "models/sony_memory_floppy_adapter.glb", // Model missing
       description: `This adapter allowed the usage of memory sticks on older computers with only floppy drives and compatible Mavica cameras, when used with compatible software installed.`,
@@ -234,6 +252,7 @@ export const museumObjects = [
     }, 
 
     { id: "pny_smart_media_card", 
+      category: "storage",
       title: "PNY Smart Media card (1995)", 
       model: "models/pny_smart_media_card.glb", // Model missing
       description: `Marketed as the successor to floppy disks, it came as big as 128Mb.`,
@@ -244,9 +263,11 @@ export const museumObjects = [
     },
 
     { id: "dial_up_card", 
+      category: "parts",
       title: "Dial-up Internet Card (1990s)", 
       model: "models/dial_up_card.glb",
       description: `These cards enabled you to plug your computer into your telephone line to get internet service.
+      
       These may have been slow (and kicked whoever was using the phone off their call), but for many ot was their only way to access the internet.`,
       img: "images/dial_up_card.png", 
       alt: "Dial-up Internet Card", 
@@ -255,6 +276,7 @@ export const museumObjects = [
     }, 
 
     { id: "rand_mcnally_streetfinder", 
+      category: "misc",
       title: "Rand McNally StreetFinder Deluxe GPS System (1998)", 
       model: "models/rand_mcnally_streetfinder.glb",
       description: `This could be used with a laptop computer to provide in-car GPS navigation, despite not having a solid internet connection.
@@ -269,6 +291,7 @@ export const museumObjects = [
     }, 
 
     { id: "magnetic_tape_reel", 
+      category: "storage",
       title: "Magnetic Tape Reels (1950s)", 
       model: "models/magnetic_tape_reel.glb", // Model missing, but have a very low-quality version possible
       description: `These reels were used in early computer mainframes from the 1950s to the 60s and beyond. The one in the center of the picture was one of the first tape reels, made by Univac in 1951. These tape reels could store anywhere from 5 megabytes to 140 megabytes, using a reel of 2400 feet of tape. For its time it was a massive amount of space, and allowed the easy storage and mixing of audio for the first time!
@@ -281,6 +304,7 @@ export const museumObjects = [
     }, 
 
     { id: "floppy_disks", // Have multiple models to add
+      category: ["storage", "players"],
       title: "Floppy Disks / Drives (1960s-1980s)", 
       model: "models/floppy_drive_5.25_in.glb",
       description: `Floppy disks were a cheap new way to transfer and store data, holding usually almost 243 kilobytes for the 8-inch, 360 kilobytes to 1.2 megabytes for the 5 & 1/4 inch, and 3 & 1/2 inch floppies increased the maximum space to 1.44 megabytes.
@@ -299,6 +323,7 @@ export const museumObjects = [
     }, 
 
     { id: "early_board", 
+      category: "parts",
       title: "Early Computer Board (Year Unknown)", 
       model: "models/early_computer_board.glb",
       description: `Pictured is a board from an early computer. The wires worked like etchings on a modern circuit.
@@ -310,6 +335,7 @@ export const museumObjects = [
     }, 
 
     { id: "ibm_system_board", 
+      category: "misc",
       title: "IBM Card Equipment Programming Plugboard (Year Unknown)", 
       model: "models/ibm_system_board.glb", 
       description: `A board from an IBM card punch calculator from the WWII era.
@@ -322,6 +348,7 @@ export const museumObjects = [
     }, 
 
     { id: "small_early_ram", 
+      category: "parts",
       title: "Early RAM (1960s)", 
       model: "models/small_early_ram.glb", 
       description: `Early RAM, or Random Access Memory module.
@@ -333,6 +360,7 @@ export const museumObjects = [
     }, 
 
     { id: "early_ram", 
+      category: "parts",
       title: "Early RAM (1960s)", 
       model: "models/early_ram.glb", 
       description: `Early RAM, or Random Access Memory module.
@@ -344,6 +372,7 @@ export const museumObjects = [
     }, 
 
     { id: "palm_3", 
+      category: "mobilePC",
       title: "Palm 3 Personal Digital Assistant (1998)", 
       model: "models/palm_3.glb", 
       description: `The device pictured below is the Palm III, a Personal Digital Assistant. It allowed you to connect to and browse the internet, check your emails and contacts, and make and view a schedule using the calendar.
@@ -357,6 +386,7 @@ export const museumObjects = [
     }, 
 
     { id: "palm_3c", 
+      category: "mobilePC",
       title: "Palm 3c Personal Digital Assistant (2000)", 
       model: "models/palm_3c.glb",  // Model missing, but have a very low-quality version possible
       description: `On the left is the Palm IIIc, where the "c" stands for color. Its screen could display 8-bit color.
@@ -374,6 +404,7 @@ export const museumObjects = [
     }, 
 
     { id: "jaz_disks", 
+      category: "storage",
       title: "iomega Jaz disks (1995)", 
       model: "models/jaz_disks.glb", 
       description: `These disks were the successor to the Zip disks mentioned earlier in the book. They weren't as successful as Zip and they had their own hardware problems as well. At the time CDs were taking off in popularity, causing reduced sales in Jaz.
@@ -386,6 +417,7 @@ export const museumObjects = [
     },
 
     { id: "motorola_v710", 
+      category: "mobilePC",
       title: "Motorola V710 Flip Phone (1995)", 
       model: "models/motorola_v710.glb", 
       description: `The Motorola V710 was the first flip phone Verizon sold that came with Bluetooth connectivity. Unfortunately it was limited to only connecting a headset to take calls on, and not transferring files.
@@ -400,6 +432,7 @@ export const museumObjects = [
     },
 
     { id: "gold_microprocessor", 
+      category: "parts",
       title: "Gold Microprocessor (c. 1970s)", 
       model: "models/gold_microprocessor.glb", 
       description: `A gold microprocessor, used in early computers.
@@ -411,7 +444,8 @@ export const museumObjects = [
       imageLink: "https://shop.richardsonrfpd.com/docs/rfpd/UMS_GaN_products.pdf"
     },
 
-    { id: "cathode_ray_tube_display", 
+    { id: "cathode_ray_tube_display",
+      category: ["misc", "parts"],
       title: "Cathode Ray Tube Display", 
       model: "models/cathode_ray_tube_display.glb", // Model missing, but have a very low-quality version possible
       description: `Cathode ray tube displays (CRTs) utilized the vacuum tube on the back would work with an electron gun to project an image onto the phosphorescent screen. 
@@ -424,6 +458,7 @@ export const museumObjects = [
     },
 
     { id: "hard_disk_drive", 
+      category: "storage",
       title: "Hard Disk Drive (???)", 
       model: "models/hard_disk_drive.glb",
       description: `Hard disk drives, or HDDs, became popular to computer users in the 1980s, and they have since become a normal part of nearly every computer.
@@ -436,6 +471,7 @@ export const museumObjects = [
     },
 
     { id: "sony_dscp71_cybershot", 
+      category: "photography",
       title: "Sony DSC-P71 Cyber-Shot (2002)", 
       model: "models/sony_dscp71_cybershot.glb",
       description: `A digital still camera made by SONY.
@@ -450,6 +486,7 @@ export const museumObjects = [
     },
 
     { id: "welta_watson_film_camera", 
+      category: "photography",
       title: "Welta Watson Film Camera (1938)", 
       model: "models/welta_watson_film_camera.glb",
       description: `A 35mm film camera made by Welta.
@@ -464,6 +501,7 @@ export const museumObjects = [
     },
 
     { id: "rolleiflex_baby", 
+      category: "photography",
       title: "Rolleiflex Baby 4x4 Grey (1957)", 
       model: "models/rolleiflex_baby_4x4_grey.glb", // No model available, not sure if it's in the physical library either.
       description: `The Rolleiflex Baby came in 2 different colors, Black and Grey. The camera used 35mm film reels, and to use the camera, you had to look down, through the top was a hole housing a small screen which showed an image reflected from a mirror.
@@ -476,6 +514,7 @@ export const museumObjects = [
     },
 
     { id: "fifth_gen_ipod", 
+      category: "mobilePC",
       title: "Fifth Generation iPod (2005)", 
       model: "models/fifth_gen_ipod.glb", // Model missing
       description: `The Fifth generation iPod, A.K.A. iPod with Video, was released in October of 2005, and came in two different sizes and colors that could be chosen between based on the customer's preferences; 30 or 60 Gigabytes of storage, and white and black in color.
@@ -490,6 +529,7 @@ export const museumObjects = [
     },
 
     { id: "canon_at_1", 
+      category: "photography",
       title: "Canon AT-1 Film Camera (1977)", 
       model: "models/canon_at_1.glb", 
       description: `This camera, despite being a camera made in Japan, was never sold in Japan. It was only made for export to the US.
@@ -503,6 +543,7 @@ export const museumObjects = [
     },
 
     { id: "lg_extravert_2", 
+      category: "mobilePC",
       title: "LG Extravert 2 (2014)", 
       model: "models/lg_extravert_2.glb", 
       description: `This phone seems to be a relic of times gone by, of clunky operating systems and flip phones, with buttons galore. Yet, this phone was sold as recently as 2018.
@@ -518,6 +559,7 @@ export const museumObjects = [
     },
 
     { id: "canon_rebel_x", 
+      category: "photography",
       title: "Canon EOS Rebel X S (1993)", 
       model: "models/canon_rebel_x.glb", 
       description: `The Canon EOS Rebel XS, also known as the EOS 500 in Europe and Asia, and EOS Kiss in Japan, is a 35mm film SLR camera popular in the '90s. 
@@ -532,6 +574,7 @@ export const museumObjects = [
     },
 
     { id: "ipaq_3800", 
+      category: "mobilePC",
       title: "Compaq iPAQ H3800 (2001)", 
       model: "models/ipaq_3800.glb", 
       description: `iPAQ is a discontinued line of PDA (personal digital assistant) orPocket PC devices from Compaq, before being bought out by HP. Their primary functions were to manage personal information like calendars, contacts, and to-do lists, and many allowed the user to play music and access the internet. They were produced from 2000-2010, and use a Windows Mobile operating system, with the ability to use alternative Linux distributions (light-weight operating system), only one of which is actively maintained today. 
@@ -548,6 +591,7 @@ export const museumObjects = [
     },
 
     { id: "dell_axim_x51v", 
+      category: "mobilePC",
       title: "Dell Axim X51v (2005)", 
       model: "models/dell_axim_x51v.glb", 
       description: `Axim is a discontinued line of PDA (personal digital assistant) or Pocket PC devices from Dell, produced from 2002 to 2007. Their primary functions were to manage personal information like calendars, contacts, and to-do lists, and many allowed the user to play music and access the internet. They natively used the Windows Mobile operating system, but are partially compatible with Google's Android operating system thanks to community projects. There was an attempt to make a Linux distribution for the Axim, however it lacked many basic features such as sound and USB connectivity.
@@ -564,6 +608,7 @@ export const museumObjects = [
     },
 
     { id: "palm_tungsten_e", 
+      category: "mobilePC",
       title: "Palm Tungsten E (2003)", 
       model: "models/palm_tungsten_e.glb", 
       description: `Tungsten is a discontinued line of PDA (personal digital assistant) or Pocket PC devices from Palm, produced from 2002 to 2005. Their primary functions were to manage personal information like calendars, contacts, and to-do lists. They used the Palm-OS operating system and were made to compete with the Sony CLIE and Windows Mobile PDAs.
@@ -580,6 +625,7 @@ export const museumObjects = [
     },
 
     { id: "ld_pioneer_v4200", 
+      category: "players",
       title: "Pioneer LD-V4200 LaserDisc Player (c. 1980s)", 
       model: "models/ld_pioneer_v4200.glb", 
       description: `LaserDisc was the first commercial optical disc format, such as CDs and DVDs. They were able to used for various forms of media, including video, music, and video games.
@@ -596,6 +642,7 @@ export const museumObjects = [
     },
 
     { id: "kodak_tele_instamatic", 
+      category: "photography",
       title: "Kodak Tele-Instamatic 608 (1975)", 
       model: "models/kodak_tele_instamatic.glb", 
       description: `The Kodak Tele-Instamatic 608 is a 110 cartridge film camera released in 1975. It can capture color or black and white images, depending on the film loaded into it.
@@ -610,6 +657,7 @@ export const museumObjects = [
     },
 
     { id: "panasonic_mini_dv", 
+      category: "photography",
       title: "Panasonic NV-DS77 MiniDV Camcorder (1999)", 
       model: "models/panasonic_mini_dv.glb", 
       description: `The NV-DS77 from Panadonic was a digital camera which recorded onto MiniDV tapes. Each MiniDV tapes was capable up storing ~15 GB of video, or a bit over 1 hour of video.
@@ -623,6 +671,7 @@ export const museumObjects = [
     },
 
     { id: "samsung_early_ram", 
+      category: "parts",
       title: "Samsung DRAM Module (1988)", 
       model: "models/samsung_early_ram.glb", 
       description: `Although no info was provided about this item, we can determine several things based on the serial number.

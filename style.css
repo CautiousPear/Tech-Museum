@@ -1,16 +1,17 @@
 :root {
-  --bg:      #0a0a0b;
-  --bg-surface:   #111114;
-  --shelf-wood:   #8B5E3C;
-  --shelf-edge:   #5C3A21;
+  --bg: #0a0a0b;
+  --bg-surface: #111114;
+  --shelf-wood: #8B5E3C;
+  --shelf-edge: #5C3A21;
   --text-primary: #e8e4d8;
-  --border:       rgba(200, 135, 42, 0.18);
+  --border: rgba(200, 135, 42, 0.18);
 }
 
-body {
+html, body {
   margin: 0;
+  padding: 0;
   font-family: Arial, sans-serif;
-  background: var(--bg);  
+  background: var(--bg);
   color: var(--text-primary);
 }
 
@@ -42,7 +43,8 @@ img {
   align-items: flex-end;
   gap: 30px;
   margin: 150px auto 20px;
-  height: 50px; /* Thinner shelf looks more like a ledge */
+  height: 50px;
+  /* Thinner shelf looks more like a ledge */
   background: var(--shelf-wood);
   position: relative;
   padding: 0 20px;
@@ -67,7 +69,7 @@ img {
   aspect-ratio: 1 / 1;
   object-fit: contain;
   transition: transform 0.3s ease;
-  filter: drop-shadow(0 5px 5px rgba(0,0,0,0.5));
+  filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.5));
 }
 
 .object:hover {
@@ -80,7 +82,7 @@ img {
   align-items: center;
   text-align: center;
   padding: 10px 18px;
-  background-color: #f0f0f0; 
+  background-color: #f0f0f0;
   color: #333;
   text-decoration: none;
   border-radius: 25px;
@@ -105,12 +107,13 @@ img {
 .back-button:hover .arrow {
   transform: translateX(-5px);
 }
+
 /* End button formatting */
 
 #display-description {
-    /* Respects line breaks */
-    white-space: pre-line; 
-    line-height: 1.5;
+  /* Respects line breaks */
+  white-space: pre-line;
+  line-height: 1.5;
 }
 
 model-viewer {
@@ -123,14 +126,52 @@ model-viewer {
 }
 
 .contact-section:hover {
-  background-color: #4a4a4a; 
+  background-color: #4a4a4a;
   color: white;
 }
 
 .credits-section:hover {
-  background-color: #4a4a4a; 
+  background-color: #4a4a4a;
   color: white;
 }
+ 
+/* Filter system start */
+.filter-bar {
+  display: flex;
+  width: 100%;
+  background-color: #3c3c3c; 
+  border: 1px solid #888888;
+  padding: 0;
+  margin-bottom: 50px;
+  position: sticky;
+  box-sizing: border-box;
+}
+
+.filter-btn {
+  flex: 1;
+  background-color: transparent;
+  color: #f1f1f1;
+  border: none;
+  border-right: 1px solid #0d2b2f;
+  padding: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  text-transform: uppercase;
+}
+
+.filter-btn.active {
+  background-color: #f0f0f0;
+  color: #0a0a0b;
+  border-color: #333;
+}
+
+.filter-btn:hover:not(.active) {
+  background-color: #f0f0f0;
+  color: #0a0a0b;
+  border-color: #333;
+}
+/* Filter system end */
 
 /* Adjustments for mobile */
 @media (max-width: 600px) {
@@ -138,7 +179,25 @@ model-viewer {
     height: 30px;
     gap: 15px;
   }
+
   .object {
     width: 25vw;
   }
+
+  .filter-bar {
+    display: none;
+  }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
