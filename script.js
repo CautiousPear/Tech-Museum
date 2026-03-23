@@ -15,7 +15,7 @@ function renderMuseum() {
   const filterButton = document.querySelector(".filter-btn.active");
   let filterCategory = filterButton.getAttribute('category');
 
-  if (window.innerWidth < 600) filterCategory = 'all'; // Do not filter if in small screen mode
+  if (window.innerWidth < 800) filterCategory = 'all'; // Do not filter if in small screen mode
   
 
   let filteredItems;
