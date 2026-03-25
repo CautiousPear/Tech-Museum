@@ -127,7 +127,7 @@ export const museumObjects = [
     },
 
     { id: "watson_film_loader", 
-      category: "misc",
+      category: ["misc", "storage"],
       title: "Watson '66' Bulk Film Loader (c. 1960s-1970s)", 
       model: "models/watson_film_loader.glb", // Model missing, but have a low-quality version possible
       description: `A Watson '66' Bulk Film Loader, from the late 1960s, early 1970s. It was used to load film into cameras, without the use of a darkroom.
@@ -166,7 +166,7 @@ export const museumObjects = [
     },
 
     { id: "cassette_recorder_player", 
-      category: ["photography", "players"],
+      category: "players",
       title: "General Electric Tape Recorder & Player 3-5027 (1982)", 
       model: "models/cassette_recorder_player.glb", 
       description: `This cassette player came with a power adapter, but could be played off a set of four AA batteries. When the cassette tape was put inside the player, you could record and play back audio, as well as fast forward, rewind, and stop playback and recording.
