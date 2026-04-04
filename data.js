@@ -49,7 +49,7 @@ export const museumObjects = [
       
       It may have been limited to addition, but that didn't stop businesses the country over from using the early calculators in most, if not all of their transactions.
       
-      The machine pictured below is of a Model 3, made from 1910-1911. The ink ribbon still works after all this time, so feel free to give it a whirl while it's wet! (At out physical museum, of course.)`,
+      The machine pictured below is of a Model 3, made from 1910-1911. The ink ribbon still works after all this time, so feel free to give it a whirl while it's wet! (At our physical museum, of course.)`,
       img: "images/mechanical_adding_machine.png", 
       alt: "Mechanical Adding Machine", 
       rotation: "0deg 0deg 150deg",
